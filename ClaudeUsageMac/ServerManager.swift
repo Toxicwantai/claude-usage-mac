@@ -72,7 +72,7 @@ final class ServerManager: ObservableObject {
                     if case .ready = self?.status {
                         self?.status = .failed("Dashboard server exited unexpectedly.")
                     } else {
-                        // Likely a port collision — try the next candidate.
+                        // Likely a port collision, try the next candidate.
                         self?.tryNextPort(index: index + 1)
                     }
                 }
