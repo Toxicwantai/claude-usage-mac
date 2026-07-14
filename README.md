@@ -32,4 +32,6 @@ This is an unofficial, unsigned wrapper. It is not affiliated with phuryn or Ant
 
 ## License
 
-MIT. See LICENSE. The vendored files under `pysrc/` retain their original MIT license from phuryn/claude-usage, see `pysrc/LICENSE`.
+MIT. See LICENSE.
+
+This project bundles source files from phuryn/claude-usage under `pysrc/`. Those files keep their original MIT license, Copyright (c) 2026 Pawel Huryn, see `pysrc/LICENSE`.
